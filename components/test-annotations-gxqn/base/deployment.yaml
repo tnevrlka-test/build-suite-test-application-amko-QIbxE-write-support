@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: test-annotations-gxqn
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-ziio-tenant/build-suite-test-application-amko/test-annotations-gxqn@sha256:aa5a8b5c5ceb95f49afcac05fd0ef8d20955a463d0c733541bb729c3de942223
         name: my-nginx
         ports:
         - containerPort: 8080
