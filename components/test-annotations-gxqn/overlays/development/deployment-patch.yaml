@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-gxqn
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-ziio-tenant/build-suite-test-application-amko/test-annotations-gxqn@sha256:aa5a8b5c5ceb95f49afcac05fd0ef8d20955a463d0c733541bb729c3de942223
+        name: my-nginx
+        resources: {}
+status: {}
